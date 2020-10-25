@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FEE9EF;
+    width: 100%;
+    height: 100vh;
+    font-family: 'roboto';
+    font-size: 10px;
+    color: #555;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #FFF;
+    width: 390px;
+    height: 360px;
+    border-radius: 5px;
+    border: 1px solid #EEE;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #e1b8c4;
+}
+
+.subcontainer {
+    width: 350px;
+    margin: 10px 0px;
+}
+
+input, select, option, textarea {
+    font-family: 'roboto';
+    height: 30px;
+    border: 1px solid #BBB;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.title {
+    height: 30px;
+    width: 100%;
+}
+
+.textarea {
+    height: 130px;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+select {
+    width: 49.6%;
+}
+
+.button input {
+    width: 45%;
+    height: 40px;
+}
+
+.create {
+    background-color: #EC3168;
+    color: #FFF;
+    font-weight: 400;
+    margin-right: 15px;
+    border: none;
+}
+
+.cancel {
+    color: #AAA;
+    border: none;
+    margin-left: 15px ;
+}
